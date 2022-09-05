@@ -12,7 +12,7 @@ Testcase1-OpenBrowser
 
 Testcase2-RightNavigation
     open browser    ${url}  ${browser}
-    title should be     Agoda Official Site | Free Cancellation & Booking Deals | Over 2 Million Hotels
+    title should be    Agoda Official Site | Free Cancellation & Booking Deals | Over 2 Million Hotels
     close browser
 
 Testcase3-Textboxenabled
