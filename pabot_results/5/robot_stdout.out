@@ -1,0 +1,39 @@
+==============================================================================
+Agoda                                                                         
+==============================================================================
+Testcase6-checkbox                                                      
+  Traceback (most recent call last):
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    File  /Users/alanliew/Desktop/Robot/agoda.robot:42
+    T:  Testcase6-checkbox    
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    File  /Users/alanliew/Desktop/Robot/agoda.robot:47
+      Click Button    xpath://*[@id="SearchBoxContainer"]/div[2]/button
+______________________________________________________________________________
+| FAIL |
+ElementNotInteractableException: Message: element not interactable
+  (Session info: chrome=97.0.4692.99)
+Stacktrace:
+0   chromedriver                        0x0000000103430280 chromedriver + 4833920
+1   chromedriver                        0x00000001033c4bf8 chromedriver + 4393976
+2   chromedriver                        0x0000000102fbab54 chromedriver + 158548
+3   chromedriver                        0x0000000102feb7ac chromedriver + 358316
+4   chromedriver                        0x0000000102fe1310 chromedriver + 316176
+5   chromedriver                        0x0000000102fe0d08 chromedriver + 314632
+6   chromedriver                        0x0000000103014114 chromedriver + 524564
+7   chromedriver                        0x0000000102fdf7e0 chromedriver + 309216
+8   chromedriver                        0x00000001033f2828 chromedriver + 4581416
+9   chromedriver                        0x0000000103407450 chromedriver + 4666448
+10  chromedriver                        0x000000010340bd1c chromedriver + 4685084
+11  chromedriver                        0x0000000103407c28 chromedriver + 4668456
+12  chromedriver                        0x00000001033e8610 chromedriver + 4539920
+13  chromedriver                        0x000000010342182c chromedriver + 4773932
+14  chromedriver                        0x00000001034219a0 chromedriver + 4774304
+15  chromedriver                        0x0000000103436e44 chromedriver + 4861508
+16  libsystem_pthread.dylib             0x00000001a6a114ec _pthread_start + 148
+17  libsystem_pthread.dylib             0x00000001a6a0c2d0 thread_start + 8
+------------------------------------------------------------------------------
+Agoda                                                                 | FAIL |
+1 test, 0 passed, 1 failed
+==============================================================================
+Output:  /Users/alanliew/Desktop/Robot/pabot_results/5/output.xml

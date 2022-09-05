@@ -1,0 +1,10 @@
+datasources:238d7804956a74748146f07b5907ef9c13ce1391
+commandlineoptions:65f95c924ba97541f47949701c4e3c51192a5b43
+suitesfrom:no-suites-from-option
+file:483c6ad34bf6f360e57025087d704d9600f8cf8d
+--test Agoda.Testcase1-OpenBrowser
+--test Agoda.Testcase2-RightNavigation
+--test Agoda.Testcase3-Textboxenabled
+--test Agoda.Testcase4-Inputtext
+--test Agoda.Testcase5-waitradiobutton
+--test Agoda.Testcase6-checkbox

@@ -1,0 +1,41 @@
+==============================================================================
+Agoda                                                                         
+==============================================================================
+Testcase5-waitradiobutton                                               
+  Traceback (most recent call last):
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    File  /Users/alanliew/Desktop/Robot/agoda.robot:32
+    T:  Testcase5-waitradiobutton    
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    File  /Users/alanliew/Desktop/Robot/agoda.robot:37
+      Click Button    xpath://*[@id="SearchBoxContainer"]/div[2]/button
+______________________________________________________________________________
+| FAIL |
+StaleElementReferenceException: Message: stale element reference: element is not attached to the page document
+  (Session info: chrome=97.0.4692.99)
+Stacktrace:
+0   chromedriver                        0x000000010534c280 chromedriver + 4833920
+1   chromedriver                        0x00000001052e0bf8 chromedriver + 4393976
+2   chromedriver                        0x0000000104ed6c84 chromedriver + 158852
+3   chromedriver                        0x0000000104ed9704 chromedriver + 169732
+4   chromedriver                        0x0000000104ed9570 chromedriver + 169328
+5   chromedriver                        0x0000000104ed97ac chromedriver + 169900
+6   chromedriver                        0x0000000104f01f9c chromedriver + 335772
+7   chromedriver                        0x0000000104efcd08 chromedriver + 314632
+    [ Message content over the limit has been removed. ]
+...hromedriver                        0x0000000104efb7e0 chromedriver + 309216
+10  chromedriver                        0x000000010530e828 chromedriver + 4581416
+11  chromedriver                        0x0000000105323450 chromedriver + 4666448
+12  chromedriver                        0x0000000105327d1c chromedriver + 4685084
+13  chromedriver                        0x0000000105323c28 chromedriver + 4668456
+14  chromedriver                        0x0000000105304610 chromedriver + 4539920
+15  chromedriver                        0x000000010533d82c chromedriver + 4773932
+16  chromedriver                        0x000000010533d9a0 chromedriver + 4774304
+17  chromedriver                        0x0000000105352e44 chromedriver + 4861508
+18  libsystem_pthread.dylib             0x00000001a6a114ec _pthread_start + 148
+19  libsystem_pthread.dylib             0x00000001a6a0c2d0 thread_start + 8
+------------------------------------------------------------------------------
+Agoda                                                                 | FAIL |
+1 test, 0 passed, 1 failed
+==============================================================================
+Output:  /Users/alanliew/Desktop/Robot/pabot_results/4/output.xml

@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 4.1.3 (Python 3.8.9 on darwin)" generated="20220131 01:12:58.173" rpa="false" schemaversion="2">
+<suite id="s1" name="Agoda" source="/Users/alanliew/Desktop/Robot/agoda.robot">
+<test id="s1-t1" name="Testcase5-waitradiobutton">
+<kw name="Open Browser" library="SeleniumLibrary">
+<arg>${url}</arg>
+<arg>${browser}</arg>
+<doc>Opens a new browser instance to the optional ``url``.</doc>
+<msg timestamp="20220131 01:12:58.422" level="INFO">Opening browser 'chrome' to base url 'https://agoda.com'.</msg>
+<status status="PASS" starttime="20220131 01:12:58.422" endtime="20220131 01:13:05.368"/>
+</kw>
+<kw name="Title Should Be" library="SeleniumLibrary">
+<arg>Agoda Official Site | Free Cancellation &amp; Booking Deals | Over 2 Million Hotels</arg>
+<doc>Verifies that the current page title equals ``title``.</doc>
+<msg timestamp="20220131 01:13:05.807" level="INFO">Page title is 'Agoda Official Site | Free Cancellation &amp; Booking Deals | Over 2 Million Hotels'.</msg>
+<status status="PASS" starttime="20220131 01:13:05.369" endtime="20220131 01:13:05.808"/>
+</kw>
+<kw name="Wait Until Element Is Visible" library="SeleniumLibrary">
+<arg>xpath://*[@id="SearchBoxContainer"]/div[1]/div/div[2]/div/div/div[1]/div/div/input</arg>
+<doc>Waits until the element ``locator`` is visible.</doc>
+<status status="PASS" starttime="20220131 01:13:05.808" endtime="20220131 01:13:07.810"/>
+</kw>
+<kw name="Input Text" library="SeleniumLibrary">
+<arg>xpath://*[@id="SearchBoxContainer"]/div[1]/div/div[2]/div/div/div[1]/div/div/input</arg>
+<arg>kampar</arg>
+<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
+<msg timestamp="20220131 01:13:07.814" level="INFO">Typing text 'kampar' into text field 'xpath://*[@id="SearchBoxContainer"]/div[1]/div/div[2]/div/div/div[1]/div/div/input'.</msg>
+<status status="PASS" starttime="20220131 01:13:07.812" endtime="20220131 01:13:11.199"/>
+</kw>
+<kw name="Click Button" library="SeleniumLibrary">
+<arg>xpath://*[@id="SearchBoxContainer"]/div[2]/button</arg>
+<doc>Clicks the button identified by ``locator``.</doc>
+<msg timestamp="20220131 01:13:11.204" level="INFO">Clicking button 'xpath://*[@id="SearchBoxContainer"]/div[2]/button'.</msg>
+<msg timestamp="20220131 01:13:13.154" level="INFO" html="true">&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td colspan="3"&gt;&lt;a href="selenium-screenshot-1.png"&gt;&lt;img src="selenium-screenshot-1.png" width="800px"&gt;&lt;/a&gt;</msg>
+<msg timestamp="20220131 01:13:13.183" level="FAIL">StaleElementReferenceException: Message: stale element reference: element is not attached to the page document
+  (Session info: chrome=97.0.4692.99)
+Stacktrace:
+0   chromedriver                        0x000000010534c280 chromedriver + 4833920
+1   chromedriver                        0x00000001052e0bf8 chromedriver + 4393976
+2   chromedriver                        0x0000000104ed6c84 chromedriver + 158852
+3   chromedriver                        0x0000000104ed9704 chromedriver + 169732
+4   chromedriver                        0x0000000104ed9570 chromedriver + 169328
+5   chromedriver                        0x0000000104ed97ac chromedriver + 169900
+6   chromedriver                        0x0000000104f01f9c chromedriver + 335772
+7   chromedriver                        0x0000000104efcd08 chromedriver + 314632
+8   chromedriver                        0x0000000104f30114 chromedriver + 524564
+9   chromedriver                        0x0000000104efb7e0 chromedriver + 309216
+10  chromedriver                        0x000000010530e828 chromedriver + 4581416
+11  chromedriver                        0x0000000105323450 chromedriver + 4666448
+12  chromedriver                        0x0000000105327d1c chromedriver + 4685084
+13  chromedriver                        0x0000000105323c28 chromedriver + 4668456
+14  chromedriver                        0x0000000105304610 chromedriver + 4539920
+15  chromedriver                        0x000000010533d82c chromedriver + 4773932
+16  chromedriver                        0x000000010533d9a0 chromedriver + 4774304
+17  chromedriver                        0x0000000105352e44 chromedriver + 4861508
+18  libsystem_pthread.dylib             0x00000001a6a114ec _pthread_start + 148
+19  libsystem_pthread.dylib             0x00000001a6a0c2d0 thread_start + 8
+</msg>
+<status status="FAIL" starttime="20220131 01:13:11.201" endtime="20220131 01:13:13.183"/>
+</kw>
+<kw name="Sleep" library="BuiltIn">
+<arg>3</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<status status="NOT RUN" starttime="20220131 01:13:13.184" endtime="20220131 01:13:13.185"/>
+</kw>
+<kw name="Wait Until Element Is Enabled" library="SeleniumLibrary">
+<arg>xpath://*[@id="searchPageLeftColumn"]/div[2]/div[1]/div[2]/ul/li[3]/span</arg>
+<doc>Waits until the element ``locator`` is enabled.</doc>
+<status status="NOT RUN" starttime="20220131 01:13:13.185" endtime="20220131 01:13:13.185"/>
+</kw>
+<kw name="Close Browser" library="SeleniumLibrary">
+<doc>Closes the current browser.</doc>
+<status status="NOT RUN" starttime="20220131 01:13:13.186" endtime="20220131 01:13:13.186"/>
+</kw>
+<status status="FAIL" starttime="20220131 01:12:58.421" endtime="20220131 01:13:13.186">StaleElementReferenceException: Message: stale element reference: element is not attached to the page document
+  (Session info: chrome=97.0.4692.99)
+Stacktrace:
+0   chromedriver                        0x000000010534c280 chromedriver + 4833920
+1   chromedriver                        0x00000001052e0bf8 chromedriver + 4393976
+2   chromedriver                        0x0000000104ed6c84 chromedriver + 158852
+3   chromedriver                        0x0000000104ed9704 chromedriver + 169732
+4   chromedriver                        0x0000000104ed9570 chromedriver + 169328
+5   chromedriver                        0x0000000104ed97ac chromedriver + 169900
+6   chromedriver                        0x0000000104f01f9c chromedriver + 335772
+7   chromedriver                        0x0000000104efcd08 chromedriver + 314632
+    [ Message content over the limit has been removed. ]
+...hromedriver                        0x0000000104efb7e0 chromedriver + 309216
+10  chromedriver                        0x000000010530e828 chromedriver + 4581416
+11  chromedriver                        0x0000000105323450 chromedriver + 4666448
+12  chromedriver                        0x0000000105327d1c chromedriver + 4685084
+13  chromedriver                        0x0000000105323c28 chromedriver + 4668456
+14  chromedriver                        0x0000000105304610 chromedriver + 4539920
+15  chromedriver                        0x000000010533d82c chromedriver + 4773932
+16  chromedriver                        0x000000010533d9a0 chromedriver + 4774304
+17  chromedriver                        0x0000000105352e44 chromedriver + 4861508
+18  libsystem_pthread.dylib             0x00000001a6a114ec _pthread_start + 148
+19  libsystem_pthread.dylib             0x00000001a6a0c2d0 thread_start + 8</status>
+</test>
+<status status="FAIL" starttime="20220131 01:12:58.179" endtime="20220131 01:13:13.197"/>
+</suite>
+<statistics>
+<total>
+<stat pass="0" fail="1" skip="0">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat pass="0" fail="1" skip="0" id="s1" name="Agoda">Agoda</stat>
+</suite>
+</statistics>
+<errors>
+</errors>
+</robot>
